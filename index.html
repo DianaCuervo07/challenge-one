@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter' rel='stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>challenge 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="imagenes/Vector.png" class="logoImg">
+        </div>
+    
+        <div class="left">
+            <textarea name="encrypt" id="encrypt"  cols="12" rows="11"  placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+            
+    
+        <div class="right">
+            <img src="muñeco.png" id="imagenDerecha"  alt="Muñeco fondo del input">
+            <h1 id="notFound">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="20" cols="80">Ingrese el texto que desea encriptar.</textarea>
+            <button type="button" id="copiar" name="button" onclick="copiar()"> Copiar</button>
+        </div>
+        
+            <div class="left-buttom">
+                <p>
+                <img src="atencion.png" alt="ícono de atención">   Sólo letras minúsculas y sin acentos</p>
+                <button id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                <button id="botonDEsencriptar"  onclick="desencriptar()">Desencriptar</button>
+
+            </div>
+            
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    
+    
+</body>
+</html>
